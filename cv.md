@@ -12,7 +12,7 @@
     Bash Docker SQL Python AWS Matillion C# Nodejs Data Modeling Query Optimization
 ## Experience
 ### Data Engineer 
-#### `LvivSoft /  February 2018 – Present`
+#### `LvivSoft / February 2018 – Present`
 #### *Environment: AWS, MS SQL Server, Redshift, Docker, Linux, Bash, Python, Matillion*
     - Containerized scalable ETL processing
     - RDS migration from on-premises servers to RDS. Ported 100+ SQL Server Agent jobs to ETL containers
@@ -23,7 +23,7 @@
     - Training team on moving from Windows to Linux development environment
     - Creating and maintaining `team-handbook` repo with necessary documentation SDLC, CI/CD
 ### C# Full Stack developer
-#### `Kapsnet BV  /  October 2009 – February 2018`
+#### `Kapsnet BV  / October 2009 – February 2018`
 #### *Environment: C#, MS SQL Server, T-SQL, ASP MVC 3*
     - Design DB structure for ecommerce solution
     - Develop and support about 150 sites
@@ -35,7 +35,7 @@
     - Optimizing queries
     - Custom CI/CD pipelines
 ### BI developer, Team Lead
-#### `Conscensia Ukraine	/ February 2007 – October 2009`
+#### `Conscensia Ukraine / February 2007 – October 2009`
 #### *Environment: SAS 9.1.3, DI Studio, Enterprise Guide, SAS Web Report Studio, SAS Portal, Flex Builder 3.0*
     - Data Warehouse for one of the Danish bank
     - Develop logical and physical models
