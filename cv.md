@@ -47,7 +47,7 @@
     - Load data from various data sources (DB2, SQL server etc.)
     - Manage team from 6 people on agile environment
 ### Head of IT department / Data Engineer
-#### Lviv State Tax Administration `May 2003 – February 2007`
+#### `Lviv State Tax Administration May 2003 – February 2007`
 #### *Environment: Oracle 9i, PL/SQL, Oracle HTTP Server (Apache Web Server), SQL Navigator, PHP, Borland Delphi 5*
     - Maintain database server
     - Capacity planning
