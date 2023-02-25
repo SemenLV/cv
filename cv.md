@@ -23,7 +23,7 @@
     - Training team on moving from Windows to Linux development environment
     - Creating and maintaining `team-handbook` repo with necessary documentation SDLC, CI/CD
 ### C# Full Stack developer
-#### `Kapsnet BV  / October 2009 – February 2018`
+#### `Kapsnet BV / October 2009 – February 2018`
 #### *Environment: C#, MS SQL Server, T-SQL, ASP MVC 3*
     - Design DB structure for ecommerce solution
     - Develop and support about 150 sites
@@ -47,7 +47,7 @@
     - Load data from various data sources (DB2, SQL server etc.)
     - Manage team from 6 people on agile environment
 ### Head of IT department / Data Engineer
-#### `Lviv State Tax Administration May 2003 – February 2007`
+#### `Lviv State Tax Administration / May 2003 – February 2007`
 #### *Environment: Oracle 9i, PL/SQL, Oracle HTTP Server (Apache Web Server), SQL Navigator, PHP, Borland Delphi 5*
     - Maintain database server
     - Capacity planning
