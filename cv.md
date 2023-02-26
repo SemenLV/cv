@@ -2,22 +2,26 @@
 ## Data Engineer
  - email ssemenchuk@gmail.com
  - phone +380502222693
+ - skype ssemenchuk
  - address `Broadway Foot, Hawnby, YO62 5LT`
- - linkedin https://www.linkedin.com/in/sergii-semenchuk-9310884/
+ - [linkedin sergii-semenchuk-9310884](https://www.linkedin.com/in/sergii-semenchuk-9310884/)
 ## Objective
-    Seasoned Engineer (15+ years) with ETL, Data & API Experience.
-    Solid understanding of software development process and information technologies.
-    Highly motivated, hardworking person, who eager to learn.
-    Solid experience with AWS web services such as ECS, ECR, RDS, Event Bridge, Redshift, EFS, Lambda, S3. Interested in working with Azure or GCP.
-    Active, enthusiastic, good problem solving skills, responsible, skillful in working independently or in collaboration with team.
+    Seasoned Engineer (15+ years) with ETL, Data & API Experience
+    Experience with AWS web services such as ECS, ECR, RDS, Event Bridge, Redshift, EFS, Lambda, S3 
+    Good analytical skills
+    Passion to investigate and transform data
+    Solid understanding of software development process and information technologies
+    Highly motivated, hardworking person, who eager to learn
+    Active, enthusiastic, good problem solving skills, responsible
+    Skillful in working independently or in collaboration with team
 ## Skills 
 |        |                                                                            |                    |                                                                                         |
 | :---   | :---:                                                                      | :---               | :---:                                                                                   |
-| Bash   | ![Bash](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10)   | Matillion          | ![Matillion](https://progress-bar.dev/9/?scale=10&title=5%20years&suffix=/10)           |
+| Bash   | ![Bash](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10)   | Matillion          | ![Matillion](https://progress-bar.dev/10/?scale=10&title=5%20years&suffix=/10)          |
 | Docker | ![Docker](https://progress-bar.dev/8/?scale=10&title=3%20years&suffix=/10) | C#                 | ![C#](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10)                 |
 | SQL    | ![SQL](https://progress-bar.dev/10/?scale=10&title=15%20years&suffix=/10)  | Nodejs             | ![Nodejs](https://progress-bar.dev/5/?scale=10&title=1%20years&suffix=/10)              |
-| Python | ![Python](https://progress-bar.dev/8/?scale=10&title=3%20years&suffix=/10) | Data Modeling      | ![Data Modeling](https://progress-bar.dev/8/?scale=10&title=15%20years&suffix=/10)      |
-| AWS    | ![AWS](https://progress-bar.dev/8/?scale=10&title=5%20years&suffix=/10)    | Query Optimization | ![Query Optimization](https://progress-bar.dev/8/?scale=10&title=15%20years&suffix=/10) |
+| Python | ![Python](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10) | Data Modeling      | ![Data Modeling](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10)      |
+| AWS    | ![AWS](https://progress-bar.dev/8/?scale=10&title=5%20years&suffix=/10)    | Query Optimization | ![Query Optimization](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10) |
 ## Experience
 ### Data Engineer 
 #### `LvivSoft / February 2018 – Present`
@@ -42,6 +46,8 @@
     - Maintain and support multiple DB servers
     - Optimizing queries
     - Custom CI/CD pipelines
+    - Using ORM (NHibernate, BLoolkit, Entity Framework)
+    - Database migrations
 ### BI developer, Team Lead
 #### `Conscensia Ukraine / February 2007 – October 2009`
 #### *Environment: SAS 9.1.3, DI Studio, Enterprise Guide, SAS Web Report Studio, SAS Portal, Flex Builder 3.0*
