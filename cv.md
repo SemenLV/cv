@@ -5,11 +5,19 @@
  - address `Broadway Foot, Hawnby, YO62 5LT`
  - linkedin https://www.linkedin.com/in/sergii-semenchuk-9310884/
 ## Objective
-    Seasoned Engineer with ETL, Data & API Experience.
+    Seasoned Engineer (15+ years) with ETL, Data & API Experience.
+    Solid understanding of software development process and information technologies.
     Highly motivated, hardworking person, who eager to learn.
-    Solid experience with AWS web services such as ECS, ECR, RDS, Event Bridge, Redshift, EFS, Lambda, S3.
-## Skills
-    Bash Docker SQL Python AWS Matillion C# Nodejs Data Modeling Query Optimization
+    Solid experience with AWS web services such as ECS, ECR, RDS, Event Bridge, Redshift, EFS, Lambda, S3. Interested in working with Azure or GCP.
+    Active, enthusiastic, good problem solving skills, responsible, skillful in working independently or in collaboration with team.
+## Skills 
+|        |                                                                            |                    |                                                                                         |
+| :---   | :---:                                                                      | :---               | :---:                                                                                   |
+| Bash   | ![Bash](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10)   | Matillion          | ![Matillion](https://progress-bar.dev/9/?scale=10&title=5%20years&suffix=/10)           |
+| Docker | ![Docker](https://progress-bar.dev/8/?scale=10&title=3%20years&suffix=/10) | C#                 | ![C#](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10)                 |
+| SQL    | ![SQL](https://progress-bar.dev/10/?scale=10&title=15%20years&suffix=/10)  | Nodejs             | ![Nodejs](https://progress-bar.dev/5/?scale=10&title=1%20years&suffix=/10)              |
+| Python | ![Python](https://progress-bar.dev/8/?scale=10&title=3%20years&suffix=/10) | Data Modeling      | ![Data Modeling](https://progress-bar.dev/8/?scale=10&title=15%20years&suffix=/10)      |
+| AWS    | ![AWS](https://progress-bar.dev/8/?scale=10&title=5%20years&suffix=/10)    | Query Optimization | ![Query Optimization](https://progress-bar.dev/8/?scale=10&title=15%20years&suffix=/10) |
 ## Experience
 ### Data Engineer 
 #### `LvivSoft / February 2018 – Present`
@@ -19,7 +27,7 @@
     - Containerized ETL processed on EC2 using Matillion as orchestrator or in AWS ECS using AWS Event Bridge
     - Loading data from various sources to Redshift, RDS, Elastic Search
     - Migration Matillion ETL jobs to containerized approach
-    - Training to team on Git, GitFlow, DB Schema Migrations, Docker, & SDLC
+    - Training team on Git, GitFlow, DB Schema Migrations, Docker, & SDLC
     - Training team on moving from Windows to Linux development environment
     - Creating and maintaining `team-handbook` repo with necessary documentation SDLC, CI/CD
 ### C# Full Stack developer
@@ -45,7 +53,7 @@
     - ETL using data staging approach
     - Sslowly changed dimension type 1 and type 2
     - Load data from various data sources (DB2, SQL server etc.)
-    - Manage team from 6 people on agile environment
+    - Manage team of 6 people on agile environment
 ### Head of IT department / Data Engineer
 #### `Lviv State Tax Administration / May 2003 – February 2007`
 #### *Environment: Oracle 9i, PL/SQL, Oracle HTTP Server (Apache Web Server), SQL Navigator, PHP, Borland Delphi 5*
