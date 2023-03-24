@@ -1,13 +1,13 @@
 # Semenchuk Sergii
 ## Data Engineer
  - email ssemenchuk@gmail.com
- - phone +380502222693
+ - phone 01439798337
  - skype ssemenchuk
  - address `Broadway Foot, Hawnby, YO62 5LT`
  - [linkedin sergii-semenchuk-9310884](https://www.linkedin.com/in/sergii-semenchuk-9310884/)
 ## Objective
-    Seasoned Engineer (15+ years) with ETL, Data & API Experience
-    Experience with AWS web services such as ECS, ECR, RDS, Event Bridge, Redshift, EFS, Lambda, S3 
+    Seasoned Engineer (15+ years) with ETL, Data & API experience
+    Working AWS web services such as ECS, ECR, RDS, Event Bridge, Redshift, EFS, Lambda, S3 
     Good analytical skills
     Passion to investigate and transform data
     Solid understanding of software development process and information technologies
@@ -15,13 +15,19 @@
     Active, enthusiastic, good problem solving skills, responsible
     Skillful in working independently or in collaboration with team
 ## Skills 
-|        |                                                                            |                    |                                                                                         |
-| :---   | :---:                                                                      | :---               | :---:                                                                                   |
-| Bash   | ![Bash](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10)   | Matillion          | ![Matillion](https://progress-bar.dev/10/?scale=10&title=5%20years&suffix=/10)          |
-| Docker | ![Docker](https://progress-bar.dev/8/?scale=10&title=3%20years&suffix=/10) | C#                 | ![C#](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10)                 |
-| SQL    | ![SQL](https://progress-bar.dev/10/?scale=10&title=15%20years&suffix=/10)  | Nodejs             | ![Nodejs](https://progress-bar.dev/5/?scale=10&title=1%20years&suffix=/10)              |
-| Python | ![Python](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10) | Data Modeling      | ![Data Modeling](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10)      |
-| AWS    | ![AWS](https://progress-bar.dev/8/?scale=10&title=5%20years&suffix=/10)    | Query Optimization | ![Query Optimization](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10) |
+|        |                                                                            |                    |                                                                                         |       | |
+| :---   | :---:                                                                      | :---               | :---:                                                                                   | :--- | :---: |
+| Bash   | ![Bash](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10)   | Matillion          | ![Matillion](https://progress-bar.dev/10/?scale=10&title=5%20years&suffix=/10)          | Redshift    | ![Redshift](https://progress-bar.dev/8/?scale=10&title=5%20years&suffix=/10)  |
+| Docker | ![Docker](https://progress-bar.dev/8/?scale=10&title=3%20years&suffix=/10) | C#                 | ![C#](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10)                 | Snowflake | ![Snowflake](https://progress-bar.dev/8/?scale=10&title=2%20years&suffix=/10) |
+| SQL    | ![SQL](https://progress-bar.dev/10/?scale=10&title=15%20years&suffix=/10)  | Nodejs             | ![Nodejs](https://progress-bar.dev/5/?scale=10&title=1%20year&suffix=/10)              | Postgresql | ![Postgresql](https://progress-bar.dev/8/?scale=10&title=4%20years&suffix=/10) |
+| Python | ![Python](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10) | Data Modeling      | ![Data Modeling](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10)      | MS SQL Server| ![MS SQL Server](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10) |
+| AWS    | ![AWS](https://progress-bar.dev/8/?scale=10&title=5%20years&suffix=/10)    | Query Optimization | ![Query Optimization](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10) | SAS | ![SAS](https://progress-bar.dev/6/?scale=10&title=3%20years&suffix=/10) |
+
+## Tools
+    git, github, bitbucket, vs code, dbeaver, datagrip, ssms, jira, confluence, tempo, visual studio, s3fs, postman, jenkins, asana, tfs, teams, sharepoint, ms graph, active directory, filezilla, s3 browser, ms office, libreoffice, iis, tomcat
+
+<br />
+
 ## Experience
 ### Data Engineer 
 #### `LvivSoft / February 2018 – Present`
