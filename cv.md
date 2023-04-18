@@ -1,7 +1,8 @@
-# Semenchuk Sergii
+# Sergii Semenchuk
 ## Data Engineer
  - email ssemenchuk@gmail.com
- - phone 01439798337
+ - mobile 07708796829
+ - home 01439798337
  - skype ssemenchuk
  - address `Broadway Foot, Hawnby, YO62 5LT`
  - [linkedin sergii-semenchuk-9310884](https://www.linkedin.com/in/sergii-semenchuk-9310884/)
