@@ -35,8 +35,18 @@
 </div>
 
 ## Experience
+
+### IT developer - Productivity and Project Applicationta Engineer 
+#### `Mott MacDonald / August 2023 – Present`
+#### *Environment: Azure, AKS, Terraform, Go lang, Docker, Linux, Bash*
+    - Platform engineering project Moata workspaces
+    - Developing authorization operator
+    - Developing github actions to deploy applications such as Plotly/dash, Streamlit, R shiny, .NET, Python
+    - Using Flux CD for deployments 
+
+
 ### Data Engineer 
-#### `LvivSoft / February 2018 – Present`
+#### `LvivSoft / February 2018 – August 2023`
 #### *Environment: AWS, MS SQL Server, Redshift, Docker, Linux, Bash, Python, Matillion*
     - Containerized scalable ETL processing using python and bash
     - Proficiency with Matillion ETL for Redshift. 100+ jobs running on prod environment
