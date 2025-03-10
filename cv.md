@@ -17,18 +17,6 @@
     Proficient in AWS web services, including Redshift, Snowflake, RDS, ECS, Lambda, S3, and more.
     Active and enthusiastic personality with excellent problem-solving skills.
     
-## Skills 
-|        |                                                                            |                    |                                                                                         |       | |
-| :---   | :---:                                                                      | :---               | :---:                                                                                   | :--- | :---: |
-| Bash   | ![Bash](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10)   | Matillion          | ![Matillion](https://progress-bar.dev/10/?scale=10&title=5%20years&suffix=/10)          | Redshift    | ![Redshift](https://progress-bar.dev/8/?scale=10&title=5%20years&suffix=/10)  |
-| Docker | ![Docker](https://progress-bar.dev/8/?scale=10&title=3%20years&suffix=/10) | C#                 | ![C#](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10)                 | Snowflake | ![Snowflake](https://progress-bar.dev/8/?scale=10&title=2%20years&suffix=/10) |
-| SQL    | ![SQL](https://progress-bar.dev/10/?scale=10&title=15%20years&suffix=/10)  | Nodejs             | ![Nodejs](https://progress-bar.dev/5/?scale=10&title=1%20year&suffix=/10)              | Postgresql | ![Postgresql](https://progress-bar.dev/8/?scale=10&title=4%20years&suffix=/10) |
-| Python | ![Python](https://progress-bar.dev/7/?scale=10&title=3%20years&suffix=/10) | Data Modeling      | ![Data Modeling](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10)      | MS SQL| ![MS SQL](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10) |
-| AWS    | ![AWS](https://progress-bar.dev/8/?scale=10&title=5%20years&suffix=/10)    | Query Optimization | ![Query Optimization](https://progress-bar.dev/8/?scale=10&title=10%20years&suffix=/10) | SAS | ![SAS](https://progress-bar.dev/6/?scale=10&title=3%20years&suffix=/10) |
-
-<div style="page-break-after: always; visibility: hidden"> 
-</div>
-
 ## Experience
 
 ### Senior Platform Engineer
