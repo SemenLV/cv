@@ -1,26 +1,21 @@
 # Sergii Semenchuk
 
-## Data Engineer
+## Senior Platform Engineer
  - email ssemenchuk@gmail.com
  - mobile 07708796829
- - home 01439798337
- - skype ssemenchuk
- - address `Broadway Foot, Hawnby, YO62 5LT`
+ - address `158 Speckledwood way, Newcastle upon Tyne NE13 9ED`
  - [linkedin sergii-semenchuk-9310884](https://www.linkedin.com/in/sergii-semenchuk-9310884/)
 
 ## Objective
-    Seasoned Engineer with over 18 years of experience.
-    Extensive knowledge in ETL, DW, Data pipelines, and API processing.
-    Strong background in designing and developing data pipelines using Python, bash or ETL tools such as Matillion.
-    Exceptional skills in optimizing queries, demonstrate proficiency in SQL.
-    Experienced in working with Docker containers to develop and deploy data pipelines.
-    Passionate about investigating and transforming data, my motivation and hardworking nature enable me to remain eager to learn. 
-    My expertise also encompasses migration from on-premises sources to the cloud.
-    Solid understanding of software development processes and information technologies, adept at working independently or collaboratively.
-    Skilled in AWS web services, including Redshift, Snowflake, RDS, ECS, Lambda, S3 etc.
-    Active and enthusiastic personality, excellent problem-solving skills.
-    Possess a understanding of Agile methodology and its role in promoting iterative development, continuous improvement, and customer satisfaction.
-    Confident in my ability to analyze and transform data effectively.
+    Experienced Engineer with over 18 years of expertise in ETL, Data Warehousing, Data Pipelines, and API processing. 
+    Proven track record in designing and developing data pipelines using Python, Bash, and ETL tools such as Matillion.
+    Highly skilled in optimizing queries and demonstrating proficiency in SQL.
+    Extensive experience in using Docker containers for developing and deploying data pipelines.
+    Passionate about data investigation and transformation, with a strong motivation and hardworking nature that drives continuous learning.
+    Expertise in migrating from on-premises sources to the cloud.
+    Solid understanding of software development processes and information technologies, with the ability to work independently or collaboratively.
+    Proficient in AWS web services, including Redshift, Snowflake, RDS, ECS, Lambda, S3, and more.
+    Active and enthusiastic personality with excellent problem-solving skills.
     
 ## Skills 
 |        |                                                                            |                    |                                                                                         |       | |
@@ -36,8 +31,21 @@
 
 ## Experience
 
-### IT developer - Productivity and Project Applicationta Engineer 
-#### `Mott MacDonald / August 2023 – Present`
+### Senior Platform Engineer
+#### `Mott MacDonald / March 2025 – Present`
+#### *Environment: Azure, AKS, Terraform, Go, Docker, Linux, Flux CD, GitHub actions, Bash*
+    - Moata workspaces
+    - Developing authorization operator
+    - Observability (Prometheus, Victoria metrics, grafana)
+    - Building integration with pluralsh
+    - Part of a platform provision Azure Database for PostgreSQL(private links)
+    - Part of platform provision a Blob storage
+    - Integration with external API's (graphql, rest)
+    - Implementing CI/CD pipelines for automated deployments
+    - Ensuring high availability and scalability of platform services
+
+### IT developer - Productivity and Project Application Engineer 
+#### `Mott MacDonald / August 2023 – March 2025`
 #### *Environment: Azure, AKS, Terraform, Go lang, Docker, Linux, Bash*
     - Platform engineering project Moata workspaces
     - Developing authorization operator
