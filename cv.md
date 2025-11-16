@@ -1,108 +1,81 @@
 # Sergii Semenchuk
 
-## Senior Platform Engineer
- - email ssemenchuk@gmail.com
- - mobile 07708796829
- - address `158 Speckledwood way, Newcastle upon Tyne NE13 9ED`
- - [linkedin sergii-semenchuk-9310884](https://www.linkedin.com/in/sergii-semenchuk-9310884/)
+**Senior Platform Engineer**
 
-## Objective
-    Experienced Engineer with over 18 years of expertise in ETL, Data Warehousing, Data Pipelines, and API processing. 
-    Proven track record in designing and developing data pipelines using Python, Bash, and ETL tools such as Matillion.
-    Highly skilled in optimizing queries and demonstrating proficiency in SQL.
-    Extensive experience in using Docker containers for developing and deploying data pipelines.
-    Passionate about data investigation and transformation, with a strong motivation and hardworking nature that drives continuous learning.
-    Expertise in migrating from on-premises sources to the cloud.
-    Solid understanding of software development processes and information technologies, with the ability to work independently or collaboratively.
-    Proficient in AWS web services, including Redshift, Snowflake, RDS, ECS, Lambda, S3, and more.
-    Active and enthusiastic personality with excellent problem-solving skills.
-    
+ssemenchuk@gmail.com | 07708796829 | Newcastle upon Tyne, NE13 9ED | [linkedin.com/in/sergii-semenchuk-9310884](https://www.linkedin.com/in/sergii-semenchuk-9310884/)
+
+---
+
+## Summary
+With over 20 years in technology, I bring a deep background in data engineering to my current role as a Senior Platform Engineer. I specialize in designing and automating cutting-edge cloud platforms, with extensive experience building scalable, containerized ETL pipelines on AWS and leading large-scale data migrations from on-premises systems. My expertise in Go, Python, Kubernetes, and Terraform enables me to create robust, observable systems and CI/CD pipelines that bridge the gap between modern platform infrastructure and data-intensive applications.
+
+---
+
 ## Experience
 
 ### Senior Platform Engineer
-#### `Mott MacDonald / March 2025 – Present`
-#### *Environment: Azure, AKS, Terraform, Go, Docker, Linux, Flux CD, GitHub actions, Bash*
-    - Moata workspaces
-    - Developing authorization operator
-    - Observability (Prometheus, Victoria metrics, grafana)
-    - Building integration with pluralsh
-    - Part of a platform provision Azure Database for PostgreSQL(private links)
-    - Part of platform provision a Blob storage
-    - Integration with external API's (graphql, rest)
-    - Implementing CI/CD pipelines for automated deployments
-    - Ensuring high availability and scalability of platform services
+**Mott MacDonald** | `March 2025 – Present`
+*Environment: Azure, AKS, Terraform, Go, Docker, Linux, Flux CD, GitHub Actions, Bash*
+- Engineered a Kubernetes authorization operator in Go to manage granular access control for multi-tenant workspaces.
+- Designed and implemented the observability stack using Prometheus, Victoria Metrics, and Grafana, improving platform monitoring and incident response.
+- Automated the provisioning of secure Azure PostgreSQL instances and Blob Storage with private links using Terraform.
+- Built integrations with external GraphQL and REST APIs to enhance platform capabilities.
+- Developed and maintained CI/CD pipelines using GitHub Actions for automated, reliable deployments to AKS.
 
-### IT developer - Productivity and Project Application Engineer 
-#### `Mott MacDonald / August 2023 – March 2025`
-#### *Environment: Azure, AKS, Terraform, Go lang, Docker, Linux, Bash*
-    - Platform engineering project Moata workspaces
-    - Developing authorization operator
-    - Developing github actions to deploy applications such as Plotly/dash, Streamlit, R shiny, .NET, Python
-    - Using Flux CD for deployments 
+### IT Developer - Productivity and Project Application Engineer
+**Mott MacDonald** | `August 2023 – March 2025`
+*Environment: Azure, AKS, Terraform, Go, Docker, Linux, Bash*
+- Contributed to the core development of the "Moata Workspaces" platform engineering project.
+- Authored custom GitHub Actions to automate the deployment of diverse applications (Plotly/Dash, Streamlit, R Shiny, .NET, Python) to AKS.
+- Managed application deployments and configurations using GitOps principles with Flux CD.
 
+### Data Engineer
+**LvivSoft** | `February 2018 – August 2023`
+*Environment: AWS, MS SQL Server, Redshift, Docker, Linux, Bash, Python, Matillion*
+- Designed and implemented scalable, containerized ETL pipelines using Python and Bash, processing large volumes of data on AWS ECS.
+- Migrated over 100 legacy SQL Server Agent jobs to containerized ETL solutions, improving reliability and maintainability.
+- Led the migration of on-premises databases to AWS RDS, ensuring minimal downtime.
+- Managed and optimized a production environment of 100+ Matillion ETL jobs for Redshift.
+- Trained the engineering team on Git, Docker, and modern SDLC practices, facilitating the transition to a Linux-based development environment.
 
-### Data Engineer 
-#### `LvivSoft / February 2018 – August 2023`
-#### *Environment: AWS, MS SQL Server, Redshift, Docker, Linux, Bash, Python, Matillion*
-    - Containerized scalable ETL processing using python and bash
-    - Proficiency with Matillion ETL for Redshift. 100+ jobs running on prod environment
-    - RDS migration from on-premises servers to RDS. Ported 100+ SQL Server Agent jobs to ETL containers
-    - Containerized ETL processed on EC2 using Matillion as orchestrator or in AWS ECS using AWS Event Bridge
-    - Loading data from various sources to Redshift, RDS, Elastic Search
-    - Migration Matillion ETL jobs to containerized approach
-    - Training team on Git, GitFlow, DB Schema Migrations, Docker, & SDLC
-    - Training team on moving from Windows to Linux development environment
-    - Creating and maintaining `team-handbook` repo with necessary documentation SDLC, CI/CD
-### C# Full Stack developer
-#### `Kapsnet BV / October 2009 – February 2018`
-#### *Environment: C#, MS SQL Server, T-SQL, ASP MVC 3*
-    - Design DB structure for commerce solution
-    - Develop and support about 150 sites
-    - Exchanging data between websites and suppliers
-    - UI development html/css/jquery
-    - Backend development ASP MVC3
-    - Support for various payment systems
-    - Maintain and support multiple DB servers
-    - Optimizing queries
-    - Custom CI/CD pipelines
-    - Using ORM (NHibernate, BLoolkit, Entity Framework)
-    - Database migrations
-<div style="page-break-after: always; visibility: hidden"> 
-</div>
+### C# Full Stack Developer
+**Kapsnet BV** | `October 2009 – February 2018`
+*Environment: C#, MS SQL Server, T-SQL, ASP.NET MVC 3*
+- Developed and supported over 150 e-commerce websites, designing the database architecture and backend services.
+- Engineered data exchange systems between websites and external suppliers.
+- Implemented and maintained custom CI/CD pipelines for automated builds and deployments.
+- Optimized complex T-SQL queries, improving application performance and response times.
 
-### BI developer, Team Lead
-#### `Conscensia Ukraine / February 2007 – October 2009`
-#### *Environment: SAS 9.1.3, DI Studio, Enterprise Guide, SAS Web Report Studio, SAS Portal, Flex Builder 3.0*
-    - Data Warehouse for one of the Danish bank
-    - Develop logical and physical models
-    - Models implementation using SAS environment
-    - Reporting OLAP cubes
-    - Dashboards using Flex and SAS Web services
-    - ETL using data staging approach
-    - Slowly changed dimension type 1 and type 2
-    - Load data from various data sources (DB2, SQL server etc.)
-    - Manage team of 6 people on agile environment
-### Head of IT department / Data Engineer
-#### `Lviv State Tax Administration / May 2003 – February 2007`
-#### *Environment: Oracle 9i, PL/SQL, Oracle HTTP Server (Apache Web Server), SQL Navigator, PHP, Borland Delphi 5*
-    - Maintain database server
-    - Capacity planning
-    - Performance auditing
-    - Backup planning
-    - Develop custom reports
-    - Develop web applications for calculate tax rates
-    - CORBA-based applications support for payers calculation
-    - Exchanging data in organization hierarchy
-    - Manage team from 3 peoples
+<div style="page-break-after: always; visibility: hidden"></div>
+
+### BI Developer, Team Lead
+**Conscensia Ukraine** | `February 2007 – October 2009`
+*Environment: SAS 9.1.3, DI Studio, Enterprise Guide, Flex Builder 3.0*
+- Led a team of 6 developers in an Agile environment to build a Data Warehouse for a major Danish bank.
+- Developed logical and physical data models and implemented ETL processes using SAS DI Studio.
+- Created dashboards and reports with SAS Web Report Studio and Flex for business intelligence.
+
+### Head of IT Department / Data Engineer
+**Lviv State Tax Administration** | `May 2003 – February 2007`
+*Environment: Oracle 9i, PL/SQL, Apache, PHP, Delphi*
+- Managed the database server, including performance tuning, capacity planning, and backup strategies.
+- Developed web applications and custom reports to support tax calculation and data exchange.
+- Led a team of 3 IT specialists responsible for infrastructure and application support.
+
+---
+
 ## Education
-    Ivan Franko National University of Lviv, Ukraine.
-    Department of applied mathematics and informatics 
-    09.1998 – 06.2003
-    
-    SAS Institute, Denmark
-    Aalborg, Denmark 
-    02.2007-05.2007
-    SAS Base programmer, SAS advanced programmer courses with certification.
+**Ivan Franko National University of Lviv, Ukraine** (1998 – 2003)
+- *Department of Applied Mathematics and Informatics*
 
-## Tools
-    git, github, bitbucket, vs code, dbeaver, datagrip, ssms, jira, confluence, tempo, visual studio, s3fs, postman, jenkins, asana, tfs, teams, sharepoint, ms graph, active directory, filezilla, s3 browser, ms office, libreoffice, iis, tomcat
+**SAS Institute, Denmark** (2007)
+- *Certified SAS Base and Advanced Programmer*
+
+---
+
+## Technical Skills
+- **Cloud:** AWS (Redshift, RDS, ECS, Lambda, S3), Azure (AKS, Blob Storage, Azure DB for PostgreSQL)
+- **Languages:** Go, Python, C#, SQL, PL/SQL, Bash
+- **DevOps & CI/CD:** Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, Flux CD
+- **Databases:** MS SQL Server, Redshift, Oracle, PostgreSQL, Snowflake
+- **Tools:** Git, VS Code, DBeaver, Jira, Confluence, Postman, Visual Studio

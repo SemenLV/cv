@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>cv.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="sergii-semenchuk">Sergii Semenchuk</h1>
+<p><strong>Senior Platform Engineer</strong></p>
+<p>ssemenchuk@gmail.com | 07708796829 | Newcastle upon Tyne, NE13 9ED | <a href="https://www.linkedin.com/in/sergii-semenchuk-9310884/">linkedin.com/in/sergii-semenchuk-9310884</a></p>
+<hr>
+<h2 id="summary">Summary</h2>
+<p>With over 20 years in technology, I bring a deep background in data engineering to my current role as a Senior Platform Engineer. I specialize in designing and automating cutting-edge cloud platforms, with extensive experience building scalable, containerized ETL pipelines on AWS and leading large-scale data migrations from on-premises systems. My expertise in Go, Python, Kubernetes, and Terraform enables me to create robust, observable systems and CI/CD pipelines that bridge the gap between modern platform infrastructure and data-intensive applications.</p>
+<hr>
+<h2 id="experience">Experience</h2>
+<h3 id="senior-platform-engineer">Senior Platform Engineer</h3>
+<p><strong>Mott MacDonald</strong> | <code>March 2025 – Present</code>
+<em>Environment: Azure, AKS, Terraform, Go, Docker, Linux, Flux CD, GitHub Actions, Bash</em></p>
+<ul>
+<li>Engineered a Kubernetes authorization operator in Go to manage granular access control for multi-tenant workspaces.</li>
+<li>Designed and implemented the observability stack using Prometheus, Victoria Metrics, and Grafana, improving platform monitoring and incident response.</li>
+<li>Automated the provisioning of secure Azure PostgreSQL instances and Blob Storage with private links using Terraform.</li>
+<li>Built integrations with external GraphQL and REST APIs to enhance platform capabilities.</li>
+<li>Developed and maintained CI/CD pipelines using GitHub Actions for automated, reliable deployments to AKS.</li>
+</ul>
+<h3 id="it-developer---productivity-and-project-application-engineer">IT Developer - Productivity and Project Application Engineer</h3>
+<p><strong>Mott MacDonald</strong> | <code>August 2023 – March 2025</code>
+<em>Environment: Azure, AKS, Terraform, Go, Docker, Linux, Bash</em></p>
+<ul>
+<li>Contributed to the core development of the &quot;Moata Workspaces&quot; platform engineering project.</li>
+<li>Authored custom GitHub Actions to automate the deployment of diverse applications (Plotly/Dash, Streamlit, R Shiny, .NET, Python) to AKS.</li>
+<li>Managed application deployments and configurations using GitOps principles with Flux CD.</li>
+</ul>
+<h3 id="data-engineer">Data Engineer</h3>
+<p><strong>LvivSoft</strong> | <code>February 2018 – August 2023</code>
+<em>Environment: AWS, MS SQL Server, Redshift, Docker, Linux, Bash, Python, Matillion</em></p>
+<ul>
+<li>Designed and implemented scalable, containerized ETL pipelines using Python and Bash, processing large volumes of data on AWS ECS.</li>
+<li>Migrated over 100 legacy SQL Server Agent jobs to containerized ETL solutions, improving reliability and maintainability.</li>
+<li>Led the migration of on-premises databases to AWS RDS, ensuring minimal downtime.</li>
+<li>Managed and optimized a production environment of 100+ Matillion ETL jobs for Redshift.</li>
+<li>Trained the engineering team on Git, Docker, and modern SDLC practices, facilitating the transition to a Linux-based development environment.</li>
+</ul>
+<h3 id="c-full-stack-developer">C# Full Stack Developer</h3>
+<p><strong>Kapsnet BV</strong> | <code>October 2009 – February 2018</code>
+<em>Environment: C#, MS SQL Server, T-SQL, ASP.NET MVC 3</em></p>
+<ul>
+<li>Developed and supported over 150 e-commerce websites, designing the database architecture and backend services.</li>
+<li>Engineered data exchange systems between websites and external suppliers.</li>
+<li>Implemented and maintained custom CI/CD pipelines for automated builds and deployments.</li>
+<li>Optimized complex T-SQL queries, improving application performance and response times.</li>
+</ul>
+<div style="page-break-after: always; visibility: hidden"></div>
+<h3 id="bi-developer-team-lead">BI Developer, Team Lead</h3>
+<p><strong>Conscensia Ukraine</strong> | <code>February 2007 – October 2009</code>
+<em>Environment: SAS 9.1.3, DI Studio, Enterprise Guide, Flex Builder 3.0</em></p>
+<ul>
+<li>Led a team of 6 developers in an Agile environment to build a Data Warehouse for a major Danish bank.</li>
+<li>Developed logical and physical data models and implemented ETL processes using SAS DI Studio.</li>
+<li>Created dashboards and reports with SAS Web Report Studio and Flex for business intelligence.</li>
+</ul>
+<h3 id="head-of-it-department--data-engineer">Head of IT Department / Data Engineer</h3>
+<p><strong>Lviv State Tax Administration</strong> | <code>May 2003 – February 2007</code>
+<em>Environment: Oracle 9i, PL/SQL, Apache, PHP, Delphi</em></p>
+<ul>
+<li>Managed the database server, including performance tuning, capacity planning, and backup strategies.</li>
+<li>Developed web applications and custom reports to support tax calculation and data exchange.</li>
+<li>Led a team of 3 IT specialists responsible for infrastructure and application support.</li>
+</ul>
+<hr>
+<h2 id="education">Education</h2>
+<p><strong>Ivan Franko National University of Lviv, Ukraine</strong> (1998 – 2003)</p>
+<ul>
+<li><em>Department of Applied Mathematics and Informatics</em></li>
+</ul>
+<p><strong>SAS Institute, Denmark</strong> (2007)</p>
+<ul>
+<li><em>Certified SAS Base and Advanced Programmer</em></li>
+</ul>
+<hr>
+<h2 id="technical-skills">Technical Skills</h2>
+<ul>
+<li><strong>Cloud:</strong> AWS (Redshift, RDS, ECS, Lambda, S3), Azure (AKS, Blob Storage, Azure DB for PostgreSQL)</li>
+<li><strong>Languages:</strong> Go, Python, C#, SQL, PL/SQL, Bash</li>
+<li><strong>DevOps &amp; CI/CD:</strong> Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, Flux CD</li>
+<li><strong>Databases:</strong> MS SQL Server, Redshift, Oracle, PostgreSQL, Snowflake</li>
+<li><strong>Tools:</strong> Git, VS Code, DBeaver, Jira, Confluence, Postman, Visual Studio</li>
+</ul>
+
+</body>
+</html>
